@@ -1,0 +1,89 @@
+body {
+  background-color: #592a7a;
+  color: #ffffff;
+  background-image: url(img/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn-style {
+  background-color: #3c103e;
+  color: #fff;
+  font-size: 19px;
+  transition: 0.3s linear;
+}
+.btn-style:hover {
+  background: #915f80;
+  color: #fff;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.205);
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  color: #3c103e;
+}
+.btn {
+  border-radius: 1.5rem;
+  padding: 9px 20px;
+}
+.search-box {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.single-result {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+.card {
+  box-shadow: 3px 3px 3px rgba(83, 83, 83, 0.034),
+    3px 3px 3px rgba(83, 83, 83, 0.034), 3px -3px 15px rgba(0, 0, 0, 0.2),
+    -3px -3px 15px rgba(0, 0, 0, 0.2);
+  width: 97%;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.card-img {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.card-title {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card-text {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.text-content {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.logo-text {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 74px;
+  font-weight: 600;
+}
+span {
+  color: #cb60fe;
+}
+.audio {
+  background-color: #915f80;
+  border-radius: 15px;
+  
+}
