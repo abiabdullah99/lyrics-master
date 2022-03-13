@@ -9,6 +9,7 @@ const searchSongs = () => {
       displayError("Something Went Wrong!! Please try again later!")
     );
   document.getElementById("search-field").value = "";
+  console.log(url)
 };
 
 const displaySongs = (songs) => {

@@ -87,3 +87,14 @@ span {
   border-radius: 15px;
   
 }
+@media only screen and (max-width:688px){
+  .logo-text{
+    font-size: 24px;
+  }
+  .card{
+    width: 100%;
+  }
+  .audio{
+     width: 80%;
+  }
+}
